@@ -1,0 +1,95 @@
+/* style to html document */
+html { 
+    background-color: rgb(171, 171, 245);
+    text-align: center;
+}
+
+/* style for h1 */
+h1 {
+    font-family: monospace;
+    text-decoration: underline;
+    color: white;
+}
+h1:hover{
+    color: blueviolet; 
+}
+
+/* image found on: https://www.ebay.ca/itm/335780707853?_skw=see+n+say+toy&itmmeta=01JK404F4K3GD2GZPS3YAVGZT5&hash=item4e2e16fe0d:g:EAIAAOSwGcRnkWqx&itmprp=enc%3AAQAJAAAA8HoV3kP08IDx%2BKZ9MfhVJKmN0zG%2FHad8867hN18CIYd60RTH9r3tWMLn5RWtggnX8MhL%2FpqS36m%2FznrLMihPAeLdQr5Hx8mQywrAoRmh8bLoEd%2BU3gTk61i7K%2FHssNg822v0BcxkdVlmeYSrj0Z8mEnEei7h7H28pRqpGikCI47ottef8vvhURdQk21yZEz%2BJXAsfrXmjn3zCjr7%2BT8bJupo2Qo1qcECqqELEIzNwwQc4Ynt2s0B34dpqjkRl6EA0bSxalJbF2VAlHc8A0fp%2FWQ6%2BOE51SodMkO0%2BPtmMiO0xp54gH3P8CeXVoA2D1IIQg%3D%3D%7Ctkp%3ABFBMuvKRgJll */
+img {
+    width: 300px; 
+    height: auto; 
+    border: 5px solid; 
+    border-color: yellow;
+    margin-left: 20px; 
+}
+
+/* style for h2*/
+h2 {
+    font-style: italic;
+    font-family: monospace;
+}
+
+
+/* style for button */
+button { 
+    margin: 10px 0;; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: rgb(198, 57, 6); 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* style each of the button outputs */
+#choosenNoun1 {
+    font-size: 20px; 
+    color: rgb(222, 222, 13);
+    font-weight: bold; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#choosenVerb {
+    font-size: 20px; 
+    color: rgb(12, 71, 139);
+    font-weight: bold; 
+    font-family: monospace;
+}
+
+#choosenAdjective {
+    font-size: 20px; 
+    color: rgb(113, 8, 0);
+    font-weight: bold; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#choosenNoun2{
+    font-size: 20px; 
+    color: rgb(213, 213, 213);
+    font-weight: bold; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#choosenSetting{ 
+    font-size: 20px; 
+    color: rgb(83, 187, 57);
+    font-weight: bold; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic; 
+}
+
+/* style for student id and name output */
+#studentIdName {
+    font-size: 18px;
+    color: rgb(27, 60, 127); 
+    margin-top: 10px;
+    font-family: monospace;
+    background-color: bisque;
+}
+
+/* style for story ouput */
+#story{ 
+    color: rgb(231, 220, 78); 
+    font-weight: bold; 
+    font-size: 30px; 
+    font-family: monospace;
+}
+
